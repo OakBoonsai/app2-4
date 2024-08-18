@@ -1,5 +1,5 @@
 import React from "react";
-export function Calculator() {
+export function Calculator2() {
   const n1 = 20;
   const n2 = 4;
   const calculate = (op) => {
@@ -9,12 +9,12 @@ export function Calculator() {
   };
   return (
     <div style={{ textAlign: "center", marginTop: 20 }}>
-      <span>{}</span>&nbsp;
+      <span>{n1}</span>&nbsp;
       <button onClick={() => calculate("+")}>+</button>&nbsp;
       <button onClick={() => calculate("-")}>-</button>&nbsp;
       <button onClick={() => calculate("*")}>*</button>&nbsp;
       <button onClick={() => calculate("/")}>/</button>&nbsp;
-      <span>{}</span>
+      <span>{n2}</span>
     </div>
   );
 }
